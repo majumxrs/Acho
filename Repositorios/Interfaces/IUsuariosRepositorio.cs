@@ -9,6 +9,7 @@ namespace Api.Repositorios.Interfaces
         Task<UsuariosModel> GetById(int id);
 
         Task<UsuariosModel> InsertUsuario(UsuariosModel usuario);
+        Task<UsuariosModel> Login(string email, string password);
 
         Task<UsuariosModel> UpdateUsuario(UsuariosModel usuario, int id);
 

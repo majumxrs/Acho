@@ -8,7 +8,7 @@
 
         public string ObservacaoLocal { get; set; } = string.Empty;
 
-        public DateTime ObservacaoData { get; set; } = DateTime.MinValue;
+        public string ObservacaoData { get; set; } = string.Empty;
 
         public int AnimaisId { get; set; }
 
